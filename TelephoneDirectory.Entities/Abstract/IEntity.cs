@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace TelephoneDirectory.Entities.Abstract
 {
+    //IEntity implemente eden class bir veritabanı tablosudur.
     public interface IEntity
     {
     }

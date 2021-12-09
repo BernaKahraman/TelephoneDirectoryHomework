@@ -13,7 +13,7 @@ namespace TelephoneDirectory.Business.Concrete
 {
    public class ContactManager : IContactService
     {
-        private IContactDal _contactDal;
+        IContactDal _contactDal;
 
         public ContactManager(IContactDal contactDal) 
         {

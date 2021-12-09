@@ -46,7 +46,6 @@
   <ItemGroup>
     <Compile Include="Abstract\IContactService.cs" />
     <Compile Include="Concrete\ContactManager.cs" />
-    <Compile Include="DependencyResolvers\Ninject\BusinessModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
